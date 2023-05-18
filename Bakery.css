@@ -1,0 +1,239 @@
+html body{
+    margin:0;
+}
+*{
+    font-family: "Alegreya sans";
+}
+header{
+    padding: 4px 160px;
+    font-size: 18px;
+    color:rgb(141, 143, 145);
+}
+header img{
+    height: 45px;
+}
+.navbar{
+    float:right;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li{
+    display:inline;
+    padding: 10px;
+}
+.navbar ul li:hover{
+    color: black;
+}
+.family{
+    background:rgba(0, 0, 0, 0.247);
+    background-image: url("images/drew-coffman-1872.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: 50% 60%;
+    height: 75vh;
+    color: white;
+    padding-top: 160px;
+    text-align: center;
+}
+.family p{
+    font-size: 22px;
+    display: inline-block;
+    width: 650px;
+    line-height: 40px;
+    color: white;
+}
+.welcome{
+    margin-right: 60px;
+}
+.family h1{
+    font-size: 76px;
+    font-family: 'Alegreya Regular';
+    font-weight: lighter;
+    line-height: 5px;
+}
+input[type="button"]{
+    font-size:medium;
+    padding: 10px;
+    margin: 5px;
+    height: 55px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.learn{
+    background-color: rgb(142, 119, 84);
+    border:none;
+}
+.contact{
+    background-color:rgba(255, 255, 255, 0);
+    border: 2px solid white;
+}
+.learn:hover, .contact:hover{
+    color: black;
+    background-color:white;
+}
+.who, .info{
+    padding: 90px 140px 60px 160px;
+}
+.who img{
+    width:565.2px;
+    height:536.933px;
+}
+.who h2{
+    font-weight: lighter;
+    font-size: 32px;
+    margin-left: 70px;
+    line-height: 100px;
+}
+.who ul,p, .info ul,p{
+    font-size:17px;
+    color: rgb(104, 104, 104);
+    list-style-type: none;
+    margin-left: 70px;
+    line-height: 30px;
+}
+.who li i{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: rgb(142, 119, 84);
+    border-radius:50px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 3px;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+.location{
+    background-color:rgb(248, 248, 248);
+    padding: 90px 140px 60px 160px;
+}
+.location p, .info p{
+    margin-left: 0px;
+    margin-top:30px;
+}
+.location h2, .info h2{
+    font-weight:lighter;
+    font-size: 32px;
+}
+.location img{
+    height: 452.167px;
+    width: 565.2px;
+    margin-left: 70px;
+}
+.words{
+    width: 570px;
+}
+.baking{
+    text-align: center;
+    padding: 90px 100px 60px 100px;
+}
+.baking h2{
+    font-weight:lighter;
+    font-size: 32px;
+}
+.baking h3{
+    font-weight:lighter;
+    font-size: 23px;
+}
+iframe{
+    height:520px;
+    width: 565.6px;
+    overflow: hidden;
+}
+.info{
+    background-color:rgb(248, 248, 248);
+}
+.info li i{
+    color:white;
+    background-color:rgb(142, 119, 84);
+    border-radius:50px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 3px;
+    margin-left: -100px;
+    margin-right: 20px;
+}
+.info p{
+    width: 600px;
+    padding-right: 40px;
+}
+.about{
+    padding: 30px 100px;
+    background-color: #403D38;
+    color:rgb(150, 150, 150);
+    line-height: 30px;
+    position: relative;
+}
+.about img{
+    filter:brightness(30%) opacity(60%);
+    position:absolute;
+    width: 300px;
+    height: 200px;
+    right:10%;
+    top:35%;
+    z-index:1;
+}
+.about table{
+    position: relative;
+    z-index:2;
+}
+.about td{
+    width: 350px;
+    padding: 15px;
+}
+.about h4{
+    color:rgb(255, 255, 255);
+}
+.about a{
+    text-decoration:none;
+    color:rgb(150, 150, 150);
+}
+.about li {
+    list-style-type:none; 
+}
+.about .list:before {
+    content: '>  ';
+}
+.about i{
+    padding-right: 10px;
+}
+.about hr{
+    color:#9191911c;
+}
+.about ul{
+    height: 240px;
+    padding-left: 0px;
+}
+.end{
+    background-color:rgb(53, 51, 48);
+    color:rgb(121, 121, 121);
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.end a{
+    background-color:rgb(72, 69, 64);
+    color:rgb(140, 138, 134);
+    border-radius:50px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 3px;
+}
+#facebook:hover{
+    background-color:rgb(59, 89, 152);
+    color: rgb(255, 255, 255);
+}
+#google:hover{
+    background-color:rgb(221, 75, 57);
+    color: rgb(255, 255, 255);
+}
+#linked:hover{
+    background-color:rgb(0, 123, 181);
+    color: rgb(255, 255, 255);
+}
+#twitter:hover{
+    background-color:rgb(0, 172, 237);
+    color: rgb(255, 255, 255);
+}
